@@ -15,8 +15,8 @@
 |認識精度 |0.9875  |0.9613  | 0.9625 | 0.72875 |
 |実行時間 |12.01 s  |6.26s  | 3.36s | 2.04s |
 
-※実行環境: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz, Tesla K40c, メモリ128GB
-※テストデータ800枚，バッチサイズ32
+- 実行環境: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz, Tesla K40c, メモリ128GB
+- テストデータ800枚，バッチサイズ32
 
 ## 使い方
 
@@ -60,4 +60,4 @@ python finetune.py --test --model prunned_model
 
 ### Jupyter Notebookによるソースコードの解説
 
-[pytorch-pruning/tutorial.ipynb at master · i4e/pytorch-pruning · GitHub](https://github.com/i4e/pytorch-pruning/blob/master/tutorial.ipynb)
+[pytorch-pruning/tutorial.ipynb](https://github.com/i4e/pytorch-pruning/blob/master/tutorial.ipynb)
